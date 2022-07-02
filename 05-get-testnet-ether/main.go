@@ -23,7 +23,7 @@ func main() {
 		log.Fatalf("Error loading .env: %v", err)
 	}
 
-	accounts := []string{}
+	var accounts []string
 
 	numAccounts := 2
 	password := "password3"
